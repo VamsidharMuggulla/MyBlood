@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyBlood</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_dreg">DregActivity</string>
+    <string name="title_activity_need">NeedActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string-array name="spinner1">
+        <item>A Positive</item>
+        <item>A Negative</item>
+        <item>B Positive</item>
+        <item>B Negative</item>
+        <item>O Positive</item>
+        <item>O Negative</item>
+        <item>AB Positive</item>
+        <item>AB Negative</item>
+    </string-array>
+    
+    <string-array name="spinner2">
+        
+       	<item>Adilabad </item>  
+ 		<item>Anantapur </item>
+ 		<item>Chittoor </item>
+		<item>East Godavari </item>
+ 		<item>Guntur </item>
+ 		<item>Hyderabad </item>
+ 		<item>Kadapa </item>
+ 		<item>Karimnagar </item>
+ 		<item>Khammam </item>
+ 		<item>Krishna </item>
+ 		<item>Kurnool </item>
+ 		<item>Mahbubnagar </item>
+ 		<item>Medak </item>
+ 		<item>Nalgonda </item>
+ 		<item>Nizamabad </item>
+ 		<item>Prakasam </item>
+ 		<item>Rangareddy </item>
+ 		<item>Sri Potti Sriramulu Nellore </item>
+ 		<item>Srikakulam </item>
+ 		<item>Visakhapatnam </item>
+ 		<item>Vizianagaram </item>
+ 		<item>Warangal </item>
+ 		<item>West Godavari </item>
+	
+       
+    </string-array>
+
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_need1">Need1Activity</string>
+
+</resources>

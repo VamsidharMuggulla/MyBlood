@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:background="@drawable/image2"
+    android:orientation="vertical"
+    tools:context=".NeedActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="#123456"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/logoutt"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:gravity="right|center"
+            android:src="@android:drawable/ic_lock_power_off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.00"
+        android:paddingLeft="12dp "
+        android:text="One point of donated blood can save up to 3 Lives " />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:paddingLeft="12dp "
+         android:textColor="#FFFFFF"
+        android:layout_weight="0.00"
+        android:layout_marginTop="10dp"
+        android:text="Someone in the Country needs blood every two seconds" />
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp "
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.00"
+         android:layout_marginTop="10dp"
+        android:text="James Harrison has donated blood over 1000 times saving over 2 Million unborn babies from Rhesus disease" />
+     
+      <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:textColor="#FFFFFF"
+          android:paddingLeft="12dp "
+         android:layout_marginTop="10dp"
+        android:text="Blood makes up around 7% of the weight of a human boday" />
+      
+       <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:textColor="#FFFFFF"
+       android:paddingLeft="12dp "
+         android:layout_marginTop="10dp"
+        android:text="Many generous humans around the world give blood donations every year. This blood is used in important blood transfusions or made into medication" />
+       
+        <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:textColor="#FFFFFF"
+         android:layout_marginTop="10dp"
+           android:paddingLeft="12dp "
+        android:text="Coconut water cand be used(in emergencies) as a substitute for blood plasma" />
+        
+         <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.00"
+         android:paddingLeft="12dp "
+         android:layout_marginTop="10dp"
+        android:text="One in ten people who enter a hospital will need blood" />
+         
+          <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.00"
+         android:layout_marginTop="10dp"
+           android:paddingLeft="12dp "
+        android:text="Brain Surgery requires anywhere from two to 25 units." />
+
+</LinearLayout>
+

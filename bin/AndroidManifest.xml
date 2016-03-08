@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bloodapp.myblood"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar"  >
+        
+        
+        <activity
+            android:name="com.bloodapp.myblood.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bloodapp.myblood.TipsActivity"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name="com.bloodapp.myblood.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.bloodapp.myblood.ButtonActivity"
+            android:label="@string/title_activity_button" >
+        </activity>
+        <activity
+            android:name="com.bloodapp.myblood.DregActivity"
+            android:label="@string/title_activity_dreg" >
+        </activity>
+        <activity
+            android:name="com.bloodapp.myblood.NeedActivity"
+            android:label="@string/title_activity_need" >
+        </activity>
+        <activity
+            android:name="com.bloodapp.myblood.RegActivity"
+            android:label="@string/title_activity_reg" >
+        </activity>
+    </application>
+
+</manifest>
